@@ -1,0 +1,57 @@
+﻿@model IEnumerable<VT.Website.Models.CatalogVM>
+@using VT.Business.DTOs
+@{
+    UserDto loggedUser = Context.Session.GetCurrentUser("loggedUser");
+}
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Catalogs</h1>
+<form asp-action="Index">
+    <label for="search">Search:</label>
+    <input type="text" id="title" name="title">
+    <input type="submit" value="Search" class="btn btn-primary" />
+</form>
+@{
+    if (loggedUser != null || loggedUser.isMod)
+    {
+        <p>
+            <a asp-action="Create">Create New</a>
+        </p>
+    }
+}
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                
+                    @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    <a asp-controller="Subtype" asp-action="Index" asp-route-catalogId=@item.Id>
+                        @Html.DisplayFor(modelItem => item.Title)
+                    </a>
+                </td>
+                @{
+                    if (loggedUser != null || loggedUser.isMod)
+                    {
+                        <td>
+                            @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                            @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                            @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                        </td>
+                    }
+                }
+            </tr>
+        }
+    </tbody>
+</table>

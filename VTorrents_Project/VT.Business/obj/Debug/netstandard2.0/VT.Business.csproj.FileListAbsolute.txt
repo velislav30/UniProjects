@@ -1,0 +1,14 @@
+C:\Users\velis\source\repos\VTorrents_Project\VT.Business\bin\Debug\netstandard2.0\VT.Business.deps.json
+C:\Users\velis\source\repos\VTorrents_Project\VT.Business\bin\Debug\netstandard2.0\VT.Business.dll
+C:\Users\velis\source\repos\VTorrents_Project\VT.Business\bin\Debug\netstandard2.0\VT.Business.pdb
+C:\Users\velis\source\repos\VTorrents_Project\VT.Business\obj\Debug\netstandard2.0\VT.Business.AssemblyInfoInputs.cache
+C:\Users\velis\source\repos\VTorrents_Project\VT.Business\obj\Debug\netstandard2.0\VT.Business.AssemblyInfo.cs
+C:\Users\velis\source\repos\VTorrents_Project\VT.Business\obj\Debug\netstandard2.0\VT.Business.dll
+C:\Users\velis\source\repos\VTorrents_Project\VT.Business\obj\Debug\netstandard2.0\VT.Business.pdb
+C:\Users\velis\source\repos\VTorrents_Project\VT.Business\bin\Debug\netstandard2.0\VT.Data.dll
+C:\Users\velis\source\repos\VTorrents_Project\VT.Business\bin\Debug\netstandard2.0\VT.Models.dll
+C:\Users\velis\source\repos\VTorrents_Project\VT.Business\bin\Debug\netstandard2.0\VT.Data.pdb
+C:\Users\velis\source\repos\VTorrents_Project\VT.Business\bin\Debug\netstandard2.0\VT.Models.pdb
+C:\Users\velis\source\repos\VTorrents_Project\VT.Business\obj\Debug\netstandard2.0\VT.Business.csprojAssemblyReference.cache
+C:\Users\velis\source\repos\VTorrents_Project\VT.Business\obj\Debug\netstandard2.0\VT.Business.csproj.CopyComplete
+C:\Users\velis\source\repos\VTorrents_Project\VT.Business\obj\Debug\netstandard2.0\VT.Business.csproj.CoreCompileInputs.cache

@@ -1,0 +1,12 @@
+C:\Users\velis\source\repos\VTorrents_Project\VT.Data\obj\Debug\netstandard2.0\VT.Data.csprojAssemblyReference.cache
+C:\Users\velis\source\repos\VTorrents_Project\VT.Data\obj\Debug\netstandard2.0\VT.Data.csproj.CoreCompileInputs.cache
+C:\Users\velis\source\repos\VTorrents_Project\VT.Data\obj\Debug\netstandard2.0\VT.Data.AssemblyInfoInputs.cache
+C:\Users\velis\source\repos\VTorrents_Project\VT.Data\obj\Debug\netstandard2.0\VT.Data.AssemblyInfo.cs
+C:\Users\velis\source\repos\VTorrents_Project\VT.Data\bin\Debug\netstandard2.0\VT.Data.deps.json
+C:\Users\velis\source\repos\VTorrents_Project\VT.Data\bin\Debug\netstandard2.0\VT.Data.dll
+C:\Users\velis\source\repos\VTorrents_Project\VT.Data\bin\Debug\netstandard2.0\VT.Data.pdb
+C:\Users\velis\source\repos\VTorrents_Project\VT.Data\bin\Debug\netstandard2.0\VT.Models.dll
+C:\Users\velis\source\repos\VTorrents_Project\VT.Data\bin\Debug\netstandard2.0\VT.Models.pdb
+C:\Users\velis\source\repos\VTorrents_Project\VT.Data\obj\Debug\netstandard2.0\VT.Data.csproj.CopyComplete
+C:\Users\velis\source\repos\VTorrents_Project\VT.Data\obj\Debug\netstandard2.0\VT.Data.dll
+C:\Users\velis\source\repos\VTorrents_Project\VT.Data\obj\Debug\netstandard2.0\VT.Data.pdb

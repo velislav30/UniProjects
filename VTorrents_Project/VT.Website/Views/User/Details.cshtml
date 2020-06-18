@@ -1,0 +1,95 @@
+﻿@model VT.Website.Models.UserVM
+@using VT.Business.DTOs
+@{
+    UserDto loggedUser = Context.Session.GetCurrentUser("loggedUser");
+}
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>UserVM</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Username)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Username)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Password)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Password)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.FirstName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FirstName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.LastName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.LastName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CreatedOn)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CreatedOn)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.LastLoggedIn)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.LastLoggedIn)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.isMod)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.isMod)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.isAdmin)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.isAdmin)
+        </dd>
+    </dl>
+</div>
+<div>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    <a asp-controller="Torrent" asp-action="Downloads" asp-route-downloaderId=@Model.Id>Download History</a> |
+    <a asp-controller="Torrent" asp-action="Uploads" asp-route-uploaderId=@Model.Id>Upload History</a> |
+    @{
+        if (loggedUser != null && loggedUser.isAdmin)
+        {
+            <a asp-action="Index">Back</a>
+        }
+        else
+        {
+            <a asp-controller="Home" asp-action="Index">Back</a>
+        }
+
+    }
+
+</div>

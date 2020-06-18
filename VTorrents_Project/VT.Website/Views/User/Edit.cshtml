@@ -1,0 +1,81 @@
+﻿@model VT.Website.Models.UserVM
+@using VT.Business.DTOs
+@{
+    UserDto loggedUser = Context.Session.GetCurrentUser("loggedUser");
+}
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Edit</h1>
+
+<h4>UserVM</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Username" class="control-label"></label>
+                <input asp-for="Username" class="form-control" />
+                <span asp-validation-for="Username" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Password" class="control-label"></label>
+                <input asp-for="Password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FirstName" class="control-label"></label>
+                <input asp-for="FirstName" class="form-control" />
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LastName" class="control-label"></label>
+                <input asp-for="LastName" class="form-control" />
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            @{
+                if (loggedUser != null && loggedUser.isAdmin)
+                {
+                    <div class="form-group form-check">
+                        <label class="form-check-label">
+                            <input class="form-check-input" asp-for="isMod" /> @Html.DisplayNameFor(model => model.isMod)
+                        </label>
+                    </div>
+                    <div class="form-group form-check">
+                        <label class="form-check-label">
+                            <input class="form-check-input" asp-for="isAdmin" /> @Html.DisplayNameFor(model => model.isAdmin)
+                        </label>
+                    </div>
+                }
+            }
+        <div class="form-group">
+                    <input type="submit" value="Save" class="btn btn-primary"/>
+        </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    @{
+        if (loggedUser != null && loggedUser.isMod)
+        {
+            <a asp-action="Index">Back</a>
+        }
+        else
+        {
+            <a asp-controller="Home" asp-action="Index">Back</a>
+        }
+    }
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

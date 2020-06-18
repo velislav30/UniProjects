@@ -1,0 +1,51 @@
+﻿@model IEnumerable<VT.Website.Models.TorrentVM>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+<form asp-action="Index" asp-route-subtypeId=@(Model.FirstOrDefault() == null? 0 : Model.FirstOrDefault().SybType.Id)>
+    <label for="search">Search:</label>
+    <input type="text" id="title" name="title">
+    <input type="submit" value="Search" class="btn btn-primary" />
+</form>
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TimesDownloaded)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UploadedOn)
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TimesDownloaded)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UploadedOn)
+            </td>
+            <td>
+                @Html.ActionLink("Download", "DownloadTorrent", new { subtypeId = item.SybType.Id ,id = item.Id }) |
+                @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

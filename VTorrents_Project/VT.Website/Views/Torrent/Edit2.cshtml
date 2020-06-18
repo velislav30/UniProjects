@@ -1,0 +1,38 @@
+﻿@model VT.Website.Models.TorrentVM
+
+@{
+    ViewData["Title"] = "Edit2";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Edit2</h1>
+
+<h4>Torrent</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit2">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            @Html.HiddenFor(subtype => subtype.Title)
+            @Html.HiddenFor(subtype => subtype.Description)
+            @Html.HiddenFor(subtype => subtype.CatalogId)
+            @Html.HiddenFor(model => model.TimesDownloaded)
+            <div class="form-group">
+                <label asp-for="SubtypeId" class="control-label"></label>
+                @Html.DropDownListFor(subtype => subtype.SubtypeId, ViewBag.Subtypes as IEnumerable<SelectListItem>, htmlAttributes: new { @class = "form-control" })
+                <span asp-validation-for="SubtypeId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" method="post" asp-action="Edit" asp-route-id=@Model.Id />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-controller="Catalog" asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,9 @@
+C:\Users\velis\source\repos\VTorrents_Project\VT.Models\bin\Debug\netstandard2.0\VT.Models.deps.json
+C:\Users\velis\source\repos\VTorrents_Project\VT.Models\bin\Debug\netstandard2.0\VT.Models.dll
+C:\Users\velis\source\repos\VTorrents_Project\VT.Models\bin\Debug\netstandard2.0\VT.Models.pdb
+C:\Users\velis\source\repos\VTorrents_Project\VT.Models\obj\Debug\netstandard2.0\VT.Models.csproj.CoreCompileInputs.cache
+C:\Users\velis\source\repos\VTorrents_Project\VT.Models\obj\Debug\netstandard2.0\VT.Models.AssemblyInfoInputs.cache
+C:\Users\velis\source\repos\VTorrents_Project\VT.Models\obj\Debug\netstandard2.0\VT.Models.AssemblyInfo.cs
+C:\Users\velis\source\repos\VTorrents_Project\VT.Models\obj\Debug\netstandard2.0\VT.Models.dll
+C:\Users\velis\source\repos\VTorrents_Project\VT.Models\obj\Debug\netstandard2.0\VT.Models.pdb
+C:\Users\velis\source\repos\VTorrents_Project\VT.Models\obj\Debug\netstandard2.0\VT.Models.csprojAssemblyReference.cache

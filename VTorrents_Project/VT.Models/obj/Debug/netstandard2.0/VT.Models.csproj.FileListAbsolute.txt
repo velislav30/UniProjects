@@ -7,3 +7,12 @@ C:\Users\velis\source\repos\VTorrents_Project\VT.Models\obj\Debug\netstandard2.0
 C:\Users\velis\source\repos\VTorrents_Project\VT.Models\obj\Debug\netstandard2.0\VT.Models.dll
 C:\Users\velis\source\repos\VTorrents_Project\VT.Models\obj\Debug\netstandard2.0\VT.Models.pdb
 C:\Users\velis\source\repos\VTorrents_Project\VT.Models\obj\Debug\netstandard2.0\VT.Models.csprojAssemblyReference.cache
+E:\GitHub\repos\UniProjects\VTorrents_Project\VT.Models\bin\Debug\netstandard2.0\VT.Models.deps.json
+E:\GitHub\repos\UniProjects\VTorrents_Project\VT.Models\bin\Debug\netstandard2.0\VT.Models.dll
+E:\GitHub\repos\UniProjects\VTorrents_Project\VT.Models\bin\Debug\netstandard2.0\VT.Models.pdb
+E:\GitHub\repos\UniProjects\VTorrents_Project\VT.Models\obj\Debug\netstandard2.0\VT.Models.csprojAssemblyReference.cache
+E:\GitHub\repos\UniProjects\VTorrents_Project\VT.Models\obj\Debug\netstandard2.0\VT.Models.csproj.CoreCompileInputs.cache
+E:\GitHub\repos\UniProjects\VTorrents_Project\VT.Models\obj\Debug\netstandard2.0\VT.Models.AssemblyInfoInputs.cache
+E:\GitHub\repos\UniProjects\VTorrents_Project\VT.Models\obj\Debug\netstandard2.0\VT.Models.AssemblyInfo.cs
+E:\GitHub\repos\UniProjects\VTorrents_Project\VT.Models\obj\Debug\netstandard2.0\VT.Models.dll
+E:\GitHub\repos\UniProjects\VTorrents_Project\VT.Models\obj\Debug\netstandard2.0\VT.Models.pdb

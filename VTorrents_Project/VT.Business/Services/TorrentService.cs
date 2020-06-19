@@ -178,6 +178,15 @@ namespace VT.Business.Services
                     }
                 }
 
+                UserToTorrentService userToTorrentService = new UserToTorrentService();
+
+                List<UserToTorrentDto> list = userToTorrentService.GetAll().Where(us=>us.Torrent.Id == id).ToList();
+
+                foreach (var item in list)
+                {
+                    userToTorrentService.Delete(item.Id);
+                }
+
                 unitOfWork.TorrentRepository.Delete(result);
 
                 return unitOfWork.Save();

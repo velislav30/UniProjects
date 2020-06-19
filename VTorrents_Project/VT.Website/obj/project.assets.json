@@ -8472,11 +8472,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\velis\\source\\repos\\VTorrents_Project\\VT.Website\\VT.Website.csproj",
+      "projectUniqueName": "E:\\GitHub\\repos\\UniProjects\\VTorrents_Project\\VT.Website\\VT.Website.csproj",
       "projectName": "VT.Website",
-      "projectPath": "C:\\Users\\velis\\source\\repos\\VTorrents_Project\\VT.Website\\VT.Website.csproj",
+      "projectPath": "E:\\GitHub\\repos\\UniProjects\\VTorrents_Project\\VT.Website\\VT.Website.csproj",
       "packagesPath": "C:\\Users\\velis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\velis\\source\\repos\\VTorrents_Project\\VT.Website\\obj\\",
+      "outputPath": "E:\\GitHub\\repos\\UniProjects\\VTorrents_Project\\VT.Website\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\velis\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8492,8 +8492,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\velis\\source\\repos\\VTorrents_Project\\VT.Business\\VT.Business.csproj": {
-              "projectPath": "C:\\Users\\velis\\source\\repos\\VTorrents_Project\\VT.Business\\VT.Business.csproj"
+            "E:\\GitHub\\repos\\UniProjects\\VTorrents_Project\\VT.Business\\VT.Business.csproj": {
+              "projectPath": "E:\\GitHub\\repos\\UniProjects\\VTorrents_Project\\VT.Business\\VT.Business.csproj"
             }
           }
         }

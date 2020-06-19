@@ -102,6 +102,11 @@ namespace VT.Business.Services
                     isAdmin = userDto.isAdmin
                 };
 
+                if (user.Username.Equals("deleted"))
+                {
+                    return true;
+                }
+
                 unitOfWork.UserRepository.Create(user);
 
                 return unitOfWork.Save();
@@ -113,6 +118,11 @@ namespace VT.Business.Services
             using (UnitOfWork unitOfWork = new UnitOfWork())
             {
                 var result = unitOfWork.UserRepository.GetById(userDto.Id);
+
+                if (userDto.Username.Equals("deleted"))
+                {
+                    return true;
+                }
 
                 if (result == null)
                 {
@@ -148,6 +158,32 @@ namespace VT.Business.Services
                     return false;
                 }
 
+                if (result.Username.Equals("deleted"))
+                {
+                    return true;
+                }
+
+                TorrentService torrentService = new TorrentService();
+
+                List<TorrentDto> torrentList = torrentService.GetAllByUploaderWithDeleted(id).ToList();
+                UserDto deleted = GetAllWithUsername("deleted").FirstOrDefault();
+
+                foreach (var item in torrentList)
+                {
+                    item.Uploader = deleted;
+                    torrentService.Update(item);
+
+                }
+
+                UserToTorrentService userToTorrentService = new UserToTorrentService();
+
+                List<UserToTorrentDto> list = userToTorrentService.GetAll().Where(us => us.Downloader.Id == id).ToList();
+
+                foreach (var item in list)
+                {
+                    userToTorrentService.Delete(item.Id);
+                }
+
                 unitOfWork.UserRepository.Delete(result);
 
                 return unitOfWork.Save();
@@ -163,6 +199,11 @@ namespace VT.Business.Services
                 if (result == null)
                 {
                     return false;
+                }
+
+                if (result.Username.Equals("deleted"))
+                {
+                    return true;
                 }
 
                 result.IsDeleted = true;

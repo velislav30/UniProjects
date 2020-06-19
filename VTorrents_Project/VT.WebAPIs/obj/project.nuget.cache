@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ro8Q065eEcdSyBO4ZGNjNCsprsATHKhj02j7/h3gapHbMQUNs/1VlrcupKRssZV66YmEHzFWKJdyy1waS3TF1A==",
+  "dgSpecHash": "4YF5s38m0Z5UTXf5Ldz5SWmbOy+YGJsI5pFza6VSz1d1mL1vBYshPDmo1W7Vdeln1lSPxTYIx+1HwNHos2krKg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\velis\\source\\repos\\VTorrents_Project\\VT.WebAPIs\\VT.WebAPIs.csproj",
+  "projectFilePath": "E:\\GitHub\\repos\\UniProjects\\VTorrents_Project\\VT.WebAPIs\\VT.WebAPIs.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\velis\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\velis\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",

@@ -10,3 +10,15 @@ C:\Users\velis\source\repos\VTorrents_Project\VT.Data\bin\Debug\netstandard2.0\V
 C:\Users\velis\source\repos\VTorrents_Project\VT.Data\obj\Debug\netstandard2.0\VT.Data.csproj.CopyComplete
 C:\Users\velis\source\repos\VTorrents_Project\VT.Data\obj\Debug\netstandard2.0\VT.Data.dll
 C:\Users\velis\source\repos\VTorrents_Project\VT.Data\obj\Debug\netstandard2.0\VT.Data.pdb
+E:\GitHub\repos\UniProjects\VTorrents_Project\VT.Data\bin\Debug\netstandard2.0\VT.Data.deps.json
+E:\GitHub\repos\UniProjects\VTorrents_Project\VT.Data\bin\Debug\netstandard2.0\VT.Data.dll
+E:\GitHub\repos\UniProjects\VTorrents_Project\VT.Data\bin\Debug\netstandard2.0\VT.Data.pdb
+E:\GitHub\repos\UniProjects\VTorrents_Project\VT.Data\bin\Debug\netstandard2.0\VT.Models.dll
+E:\GitHub\repos\UniProjects\VTorrents_Project\VT.Data\bin\Debug\netstandard2.0\VT.Models.pdb
+E:\GitHub\repos\UniProjects\VTorrents_Project\VT.Data\obj\Debug\netstandard2.0\VT.Data.csprojAssemblyReference.cache
+E:\GitHub\repos\UniProjects\VTorrents_Project\VT.Data\obj\Debug\netstandard2.0\VT.Data.csproj.CoreCompileInputs.cache
+E:\GitHub\repos\UniProjects\VTorrents_Project\VT.Data\obj\Debug\netstandard2.0\VT.Data.AssemblyInfoInputs.cache
+E:\GitHub\repos\UniProjects\VTorrents_Project\VT.Data\obj\Debug\netstandard2.0\VT.Data.AssemblyInfo.cs
+E:\GitHub\repos\UniProjects\VTorrents_Project\VT.Data\obj\Debug\netstandard2.0\VT.Data.csproj.CopyComplete
+E:\GitHub\repos\UniProjects\VTorrents_Project\VT.Data\obj\Debug\netstandard2.0\VT.Data.dll
+E:\GitHub\repos\UniProjects\VTorrents_Project\VT.Data\obj\Debug\netstandard2.0\VT.Data.pdb

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ECpQ98VPC0zPOkHLz/fpkflWQb+VImD3qWOV1vULYhhqhdyH/yLskejKUjTW/4z5Hh5rR7nbT/VY1p1BsppuLw==",
+  "dgSpecHash": "OVBBpQP6FKMvCqGUoOlzP3HjzjiLuW09aSu2wVUSqwpEFl3xPL2R9PUjKIbwDJcOwK5TJlPPW7Ex1s5Jf0U61A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\velis\\source\\repos\\VTorrents_Project\\VT.Website\\VT.Website.csproj",
+  "projectFilePath": "E:\\GitHub\\repos\\UniProjects\\VTorrents_Project\\VT.Website\\VT.Website.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\velis\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\velis\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

@@ -1043,11 +1043,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\velis\\source\\repos\\VTorrents_Project\\VT.Models\\VT.Models.csproj",
+      "projectUniqueName": "E:\\GitHub\\repos\\UniProjects\\VTorrents_Project\\VT.Models\\VT.Models.csproj",
       "projectName": "VT.Models",
-      "projectPath": "C:\\Users\\velis\\source\\repos\\VTorrents_Project\\VT.Models\\VT.Models.csproj",
+      "projectPath": "E:\\GitHub\\repos\\UniProjects\\VTorrents_Project\\VT.Models\\VT.Models.csproj",
       "packagesPath": "C:\\Users\\velis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\velis\\source\\repos\\VTorrents_Project\\VT.Models\\obj\\",
+      "outputPath": "E:\\GitHub\\repos\\UniProjects\\VTorrents_Project\\VT.Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\velis\\AppData\\Roaming\\NuGet\\NuGet.Config",

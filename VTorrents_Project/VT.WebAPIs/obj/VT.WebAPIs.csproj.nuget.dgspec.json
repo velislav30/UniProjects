@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\velis\\source\\repos\\VTorrents_Project\\VT.WebAPIs\\VT.WebAPIs.csproj": {}
+    "E:\\GitHub\\repos\\UniProjects\\VTorrents_Project\\VT.WebAPIs\\VT.WebAPIs.csproj": {}
   },
   "projects": {
-    "C:\\Users\\velis\\source\\repos\\VTorrents_Project\\VT.Business\\VT.Business.csproj": {
+    "E:\\GitHub\\repos\\UniProjects\\VTorrents_Project\\VT.Business\\VT.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\velis\\source\\repos\\VTorrents_Project\\VT.Business\\VT.Business.csproj",
+        "projectUniqueName": "E:\\GitHub\\repos\\UniProjects\\VTorrents_Project\\VT.Business\\VT.Business.csproj",
         "projectName": "VT.Business",
-        "projectPath": "C:\\Users\\velis\\source\\repos\\VTorrents_Project\\VT.Business\\VT.Business.csproj",
+        "projectPath": "E:\\GitHub\\repos\\UniProjects\\VTorrents_Project\\VT.Business\\VT.Business.csproj",
         "packagesPath": "C:\\Users\\velis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\velis\\source\\repos\\VTorrents_Project\\VT.Business\\obj\\",
+        "outputPath": "E:\\GitHub\\repos\\UniProjects\\VTorrents_Project\\VT.Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\velis\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\velis\\source\\repos\\VTorrents_Project\\VT.Data\\VT.Data.csproj": {
-                "projectPath": "C:\\Users\\velis\\source\\repos\\VTorrents_Project\\VT.Data\\VT.Data.csproj"
+              "E:\\GitHub\\repos\\UniProjects\\VTorrents_Project\\VT.Data\\VT.Data.csproj": {
+                "projectPath": "E:\\GitHub\\repos\\UniProjects\\VTorrents_Project\\VT.Data\\VT.Data.csproj"
               }
             }
           }
@@ -67,14 +67,14 @@
         }
       }
     },
-    "C:\\Users\\velis\\source\\repos\\VTorrents_Project\\VT.Data\\VT.Data.csproj": {
+    "E:\\GitHub\\repos\\UniProjects\\VTorrents_Project\\VT.Data\\VT.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\velis\\source\\repos\\VTorrents_Project\\VT.Data\\VT.Data.csproj",
+        "projectUniqueName": "E:\\GitHub\\repos\\UniProjects\\VTorrents_Project\\VT.Data\\VT.Data.csproj",
         "projectName": "VT.Data",
-        "projectPath": "C:\\Users\\velis\\source\\repos\\VTorrents_Project\\VT.Data\\VT.Data.csproj",
+        "projectPath": "E:\\GitHub\\repos\\UniProjects\\VTorrents_Project\\VT.Data\\VT.Data.csproj",
         "packagesPath": "C:\\Users\\velis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\velis\\source\\repos\\VTorrents_Project\\VT.Data\\obj\\",
+        "outputPath": "E:\\GitHub\\repos\\UniProjects\\VTorrents_Project\\VT.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\velis\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -90,8 +90,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\velis\\source\\repos\\VTorrents_Project\\VT.Models\\VT.Models.csproj": {
-                "projectPath": "C:\\Users\\velis\\source\\repos\\VTorrents_Project\\VT.Models\\VT.Models.csproj"
+              "E:\\GitHub\\repos\\UniProjects\\VTorrents_Project\\VT.Models\\VT.Models.csproj": {
+                "projectPath": "E:\\GitHub\\repos\\UniProjects\\VTorrents_Project\\VT.Models\\VT.Models.csproj"
               }
             }
           }
@@ -150,14 +150,14 @@
         }
       }
     },
-    "C:\\Users\\velis\\source\\repos\\VTorrents_Project\\VT.Models\\VT.Models.csproj": {
+    "E:\\GitHub\\repos\\UniProjects\\VTorrents_Project\\VT.Models\\VT.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\velis\\source\\repos\\VTorrents_Project\\VT.Models\\VT.Models.csproj",
+        "projectUniqueName": "E:\\GitHub\\repos\\UniProjects\\VTorrents_Project\\VT.Models\\VT.Models.csproj",
         "projectName": "VT.Models",
-        "projectPath": "C:\\Users\\velis\\source\\repos\\VTorrents_Project\\VT.Models\\VT.Models.csproj",
+        "projectPath": "E:\\GitHub\\repos\\UniProjects\\VTorrents_Project\\VT.Models\\VT.Models.csproj",
         "packagesPath": "C:\\Users\\velis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\velis\\source\\repos\\VTorrents_Project\\VT.Models\\obj\\",
+        "outputPath": "E:\\GitHub\\repos\\UniProjects\\VTorrents_Project\\VT.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\velis\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -209,14 +209,14 @@
         }
       }
     },
-    "C:\\Users\\velis\\source\\repos\\VTorrents_Project\\VT.WebAPIs\\VT.WebAPIs.csproj": {
+    "E:\\GitHub\\repos\\UniProjects\\VTorrents_Project\\VT.WebAPIs\\VT.WebAPIs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\velis\\source\\repos\\VTorrents_Project\\VT.WebAPIs\\VT.WebAPIs.csproj",
+        "projectUniqueName": "E:\\GitHub\\repos\\UniProjects\\VTorrents_Project\\VT.WebAPIs\\VT.WebAPIs.csproj",
         "projectName": "VT.WebAPIs",
-        "projectPath": "C:\\Users\\velis\\source\\repos\\VTorrents_Project\\VT.WebAPIs\\VT.WebAPIs.csproj",
+        "projectPath": "E:\\GitHub\\repos\\UniProjects\\VTorrents_Project\\VT.WebAPIs\\VT.WebAPIs.csproj",
         "packagesPath": "C:\\Users\\velis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\velis\\source\\repos\\VTorrents_Project\\VT.WebAPIs\\obj\\",
+        "outputPath": "E:\\GitHub\\repos\\UniProjects\\VTorrents_Project\\VT.WebAPIs\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\velis\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -232,8 +232,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\velis\\source\\repos\\VTorrents_Project\\VT.Business\\VT.Business.csproj": {
-                "projectPath": "C:\\Users\\velis\\source\\repos\\VTorrents_Project\\VT.Business\\VT.Business.csproj"
+              "E:\\GitHub\\repos\\UniProjects\\VTorrents_Project\\VT.Business\\VT.Business.csproj": {
+                "projectPath": "E:\\GitHub\\repos\\UniProjects\\VTorrents_Project\\VT.Business\\VT.Business.csproj"
               }
             }
           }

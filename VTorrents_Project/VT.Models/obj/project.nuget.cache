@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JQLQqV5nOJTZ9tHgaYuSrjRDDM/ih9eSGbfHzqmXZxonBZCzrk9CuOjmcC3jlxazXmwhCaBWIbFAibAVD1lIdQ==",
+  "dgSpecHash": "bHVe+Odd/3Q9b2Nz0q7W+TcjC5jr90pnu4taRu7D8V6nDSH0A7gD7O9P74d2MFmVCEtwj4AoTeyeZnHYi/yiew==",
   "success": true,
-  "projectFilePath": "C:\\Users\\velis\\source\\repos\\VTorrents_Project\\VT.Models\\VT.Models.csproj",
+  "projectFilePath": "E:\\GitHub\\repos\\UniProjects\\VTorrents_Project\\VT.Models\\VT.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\velis\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\velis\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
